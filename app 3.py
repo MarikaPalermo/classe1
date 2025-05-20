@@ -7,8 +7,8 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #FFE4E1;
-        color: #FFFFFF;
+        background-color: #FFC0CB;
+        color: #696969;
     }
     </style>
     """,
@@ -22,11 +22,11 @@ from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.chat_models import ChatOpenAI
 
-st.header("Il mio ChatBot")
+st.header("ChatBottina")
 
 from PIL import Image
-logo = Image.open("Chatbot.webp")
-st.image(logo, width=200)
+logo = Image.open("robottina.png")
+st.image(logo, width=300)
 # st.image(logo, use_column_width=True)
 
 # with st.sidebar:
